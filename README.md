@@ -1,5 +1,5 @@
 # Digital Standards Assets
-This is an open-source collection of sass to create the look of phila.gov appliactions.
+This is an open-source collection of sass to create the look of phila.gov applications.
 
 
 # Local development
