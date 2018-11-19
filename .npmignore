@@ -1,0 +1,11 @@
+ # Always publish dist/ and src/
+!dist/
+!src/
+
+# Files to ignore
+.yarnclean
+yarn.lock
+.yarn-integrity
+
+# Directories to ignore
+dev
