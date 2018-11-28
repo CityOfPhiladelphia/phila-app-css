@@ -475,7 +475,7 @@ header {
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
     width:170px; //magic number for the size of the logo
-
+    
     &:hover{
       opacity: .6;
     }
