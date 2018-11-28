@@ -1,9 +1,12 @@
 {
-  "name": "phila-app-css",
+  "name": "@cityofphiladelphia/phila-app-css",
   "version": "0.1.0",
   "description": "City of Philadelphia Application CSS",
   "main": "dist/css/phila-app.min.css",
-  "repository": "https://github.com/CityOfPhiladelphia/standards.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CityOfPhiladelphia/standards.git"
+  },
   "author": "City of Philadelphia",
   "license": "GPL-3.0",
   "dependencies": {
@@ -26,5 +29,12 @@
     "build": "node-sass --include-path node_modules/foundation-sites/scss --output-style expanded --source-map true src/sass/phila-app.scss dev/css/phila-app.css && postcss --use autoprefixer -b 'last 2 versions' < dev/css/phila-app.css -o dist/css/phila-app.min.css && node-sass --output-style compressed --source-map true dist/css/phila-app.min.css dist/css/phila-app.min.css",
     "prerelease": "rimraf dist/*",
     "release": "npm build"
+  },
+  "bugs": {
+    "url": "https://github.com/CityOfPhiladelphia/standards/issues"
+  },
+  "homepage": "https://github.com/CityOfPhiladelphia/standards#readme",
+  "directories": {
+    "test": "tests"
   }
 }
