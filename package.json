@@ -1,6 +1,6 @@
 {
   "name": "@cityofphiladelphia/phila-app-css",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "City of Philadelphia Application CSS",
   "main": "dist/css/phila-app.min.css",
   "repository": {
